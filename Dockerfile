@@ -1,7 +1,7 @@
 FROM openjdk:8u191-jre-alpine3.8
 RUN apk add curl jq
 #Workspace
-WORKDIR E:\eclipse\Workspace\org.com.newframework
+WORKDIR /Users/Share
 #add .jar under target from host
 ADD target/selenium-docker.jar  selenium-docker.jar
 ADD target/selenium-docker-tests.jar   selenium-docker-tests.jar
