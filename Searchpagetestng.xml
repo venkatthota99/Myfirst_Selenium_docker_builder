@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Searchcount">
+  <test  name="Search-java">
+  <parameter name="Keyword" value ="java" />
+   <classes>
+      <class name="com.org.tests.Keywordcounttest"/>
+    </classes>
+    </test>
+     <test  name="Search-qa">
+  <parameter name="Keyword" value ="qa" />
+   <classes>
+      <class name="com.org.tests.Keywordcounttest"/>
+    </classes>
+    </test>
+   <test  name="Search-linux">
+  <parameter name="Keyword" value ="linux" />
+   <classes>
+      <class name="com.org.tests.Keywordcounttest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
