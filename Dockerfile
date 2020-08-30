@@ -14,6 +14,6 @@ ADD target/libs						libs
 ADD  Searchpagetestng.xml      Searchpagetestng.xml
 ADD  testng.xml                testng.xml
 
-ADD healthcheck.sh
+ADD healthcheck.sh            healthcheck.sh
 
 ENTRYPOINT sh healthcheck.sh
