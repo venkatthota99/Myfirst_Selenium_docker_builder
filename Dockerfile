@@ -16,4 +16,4 @@ ADD  testng.xml                testng.xml
 
 ADD healthcheck.sh            healthcheck.sh
 
-ENTRYPOINT sh healthcheck.sh
+ENTRYPOINT bat healthcheck.sh
